@@ -12,8 +12,8 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/landingpage.css" />
-    <link rel="stylesheet" href="./css/about.css"/>
+    <link rel="stylesheet" href="./assets/css/landingpage.css" />
+    <link rel="stylesheet" href="./assets/css/about.css"/>
 
     <!--JQuery CDN-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -25,17 +25,19 @@
     <title>Hello, world!</title>
   </head>
   <body>
+    <section class="landing-page">
     <div class="overlay-navigation">
       <nav role="navigation">
         <ul>
           <li><a href="#" data-content="The beginning">Home</a></li>
-          <li><a href="#" data-content="Curious?">About</a></li>
+          <li><a href="#aboutUs" data-content="Curious?">About</a></li>
           <li><a href="#" data-content="I got game">Skills</a></li>
           <li><a href="#" data-content="Only the finest">Works</a></li>
           <li><a href="#" data-content="Don't hesitate">Contact</a></li>
         </ul>
       </nav>
     </div>
+    
 
     <section class="home">
       <a href="https://codepen.io/fluxus/pen/gPWxXJ" target="_blank"
@@ -47,32 +49,31 @@
         <span class="bar-bottom"></span>
       </div>
     </section>
-
+    </section>
     <!--Main content-->
-    <div class="grid">
-      <div class="grid-item">
-        <div class="card">     
-          
-          <div class="card-content">           
-            <div class="MyDiv">
-             
-              </div>
-            <br><br>
-           <h3 class="card-header">ABOUT </h3>
-          <br>
-            <h1 class="card-head">OWASP </h1>
-            <p class="card-text">
-              
-     
-              <br>
-              <br>
-              Thapar Institute of Engineering and Technology (TIET) has been a steady source of highly skilled talent to the nation as well as overseas. A pioneer in engineering education, research and innovation. The team of OWASP Student Chapter, one of the gilt-edged coding society, involves ingenious mind solvers who are eager to make the world a better place to live in with their innovative techniques and discoveries. By successfully organizing many hackathons, tech-talks, workshops and coding nights, we have always strived hard to maintain the coding culture throughout the campus.
-            </p>
+    <section class="about_owasp" id="aboutUs">
+      <div class="grid">
+        <div class="grid-item">
+          <div class="card">     
             
+            <div class="card-content">           
+              <div class="MyDiv">
+               
+                </div>
+              <br><br>
+             <h3 class="card-header">ABOUT </h3>
+            <br>
+              <h1 class="card-head">OWASP </h1>
+              <p class="card-text">
+                <br>
+                <br>
+                Thapar Institute of Engineering and Technology (TIET) has been a steady source of highly skilled talent to the nation as well as overseas. A pioneer in engineering education, research and innovation. The team of OWASP Student Chapter, one of the gilt-edged coding society, involves ingenious mind solvers who are eager to make the world a better place to live in with their innovative techniques and discoveries. By successfully organizing many hackathons, tech-talks, workshops and coding nights, we have always strived hard to maintain the coding culture throughout the campus.
+              </p>
+              
+            </div>
           </div>
         </div>
-      </div>
-
-      <script src="./JS Files/landingpage.js"></script>
+    </section>
+      <script src="./assets/JS Files/landingpage.js"></script>
   </body>
 </html>
