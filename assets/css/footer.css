@@ -1,0 +1,139 @@
+.contactus {
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url("../images/101955_black-and-gold-backgrounds-4-high-resolution-wallpapers_1280x1007_h.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .contact-left-image {
+    width: 400px;
+  }
+  
+  .contact-left {
+    text-align: center;
+    margin: auto;
+  }
+  
+  .contact-right {
+    padding: 30px;
+  }
+  
+  .contact-right-elements a {
+    text-decoration: none;
+  }
+  
+  .contact-right-elements {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .contact-right-elements .fab,
+  .contact-right-elements .fas {
+    color: #efca9e;
+    transition: color 0.5s;
+    font-size: 45px;
+  }
+  
+  .contact-right-elements .fab:hover,
+  .contact-right-elements .fas:hover {
+    color: #efca9e;
+  }
+  
+  .contact-right-elements p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+    margin-left: 20px;
+  }
+  
+  .p_1 {
+    position: relative;
+    top: 10px;
+  }
+  
+  .p_2 {
+    position: relative;
+    top: -5px;
+  }
+  
+  .socialmedia {
+    display: flex;
+  }
+  
+  .socialmedia div {
+    margin: 0 20px;
+  }
+  
+  .contact-main-heading {
+    color: #efca9e;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: #e2a050;
+  }
+  
+  @media only screen and (min-width: 765px) {
+    .socialmedia div:first-child {
+      margin-left: 0px;
+    }
+  }
+  
+  @media only screen and (max-width: 1201px) {
+    .contact-right {
+      padding-top: 0px;
+    }
+  
+    .contact-right-elements p {
+      margin-left: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 993px) {
+    .contact-right-elements p {
+      position: relative;
+      top: 20px;
+    }
+    .contact-right-elements p {
+      margin-left: 0px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .contact-right-elements:first-child {
+      margin-top: 0px;
+    }
+    .contact-right {
+      text-align: center;
+    }
+    .contact-left-image {
+      margin: 50px 0px;
+    }
+    .socialmedia {
+      justify-content: center;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .contact-left-image {
+      width: 300px;
+    }
+  }
+  
+  @media only screen and (max-width: 321px) {
+    .contact-right-elements .fab {
+      font-size: 35px;
+    }
+  }
+  

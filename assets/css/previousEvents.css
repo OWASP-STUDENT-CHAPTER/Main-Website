@@ -422,6 +422,19 @@ a {
   text-decoration: none;
 }
 
+.aboutbutton {
+  padding: 10px 50px;
+  border-radius: 30px;
+  text-align: center;
+  border: 2px solid rgb(255, 204, 0);
+  background-color: transparent;
+  position: relative;
+  top: 5%;
+  color: black;
+  font-family: "Poppins";
+  transition: background-color 0.5s;
+}
+
 .aboutbutton{
   transition: background-color 0.5s;
   color:rgb(255, 204, 0) !important;
