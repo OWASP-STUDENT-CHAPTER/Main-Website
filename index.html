@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./assets/css/landingpage.css" />
     <link rel="stylesheet" href="./assets/css/about.css"/>
     <link rel="stylesheet" href="./assets/css/previousEvents.css"/>
+    <link rel="stylesheet" href="./assets/css/sponsors.css"/>
 
     <!--JQuery CDN-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -46,29 +47,26 @@
   </head>
   <body>
     <section class="landing-page">
-    <div class="overlay-navigation">
-      <nav role="navigation">
-        <ul>
-          <li><a href="#" data-content="The beginning">Home</a></li>
-          <li><a href="#aboutUs" data-content="Curious?">About</a></li>
-          <li><a href="#" data-content="I got game">Skills</a></li>
-          <li><a href="#" data-content="Only the finest">Works</a></li>
-          <li><a href="#" data-content="Don't hesitate">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+      <div class="overlay-navigation">
+        <nav role="navigation">
+          <ul>
+            <li><a href="#" data-content="The beginning">Home</a></li>
+            <li><a href="#aboutUs" data-content="Curious?">About</a></li>
+            <li><a href="#" data-content="I got game">Skills</a></li>
+            <li><a href="#" data-content="Only the finest">Works</a></li>
+            <li><a href="#" data-content="Don't hesitate">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     
 
-    <section class="home">
-      <a href="https://codepen.io/fluxus/pen/gPWxXJ" target="_blank"
-        >Click for CSS version</a
-      >
-      <div class="open-overlay">
-        <span class="bar-top"></span>
-        <span class="bar-middle"></span>
-        <span class="bar-bottom"></span>
-      </div>
-    </section>
+      <section class="home">
+        <div class="open-overlay">
+          <span class="bar-top"></span>
+          <span class="bar-middle"></span>
+          <span class="bar-bottom"></span>
+        </div>
+      </section>
     </section>
     <!--Main content-->
     <section class="about_owasp" id="aboutUs">
@@ -102,8 +100,7 @@
           <div
             class="heading-prev-events"
             data-aos="fade-up"
-            data-aos-anchor-placement="top-center"
-          >
+            data-aos-anchor-placement="top-center">
             <h1 class="ml9">
               <span class="text-wrapper">
                 <span class="letters">Our Events</span>
@@ -443,8 +440,57 @@
       </div>
     </section>
 
-        
+    <!--Our Past Sponsors-->
+    <div id="sponsors" style="position: relative; top: -60px;"></div>
+    <div class="sponsback"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+    <header class="nm mt-15" >
+        <h1>Sponsors</h1>
+    </header>
 
+
+    <div class="items" >
+        <div class="item active">
+            <a href="https://codingblocks.com/" target="_blank"><img src="./assets/Images/codingblocks.png"></a>
+        </div>
+        <div class=" item next">
+            <a href="https://www.wanderlooms.com/" target="_blank"><img src="./assets/Images/wanderlooms.png"></a>
+        </div>
+        <div class="item">
+            <a href="https://www.eduvantagebox.com/" target="_blank"><img src="./assets/Images/eduvantage.png"></a>
+        </div>
+        <div class="item">
+            <a href="https://www.framer.com/" target="_blank"><img src="./assets/Images/framer.png"></a>
+        </div>
+        <div class="item">
+            <a href="https://balsamiq.com/" target="_blank"><img src="./assets/Images/balsamiq.png"></a>
+        </div>
+        <div class="item">
+            <a href="https://www.grabon.in/" target="_blank"><img src="./assets/Images/grabon.png"></a>
+        </div>
+        <div class="item">
+            <a href="https://skolar.in/" target="_blank"><img src="./assets/Images/skolar.png"></a>
+        </div>
+        <div class="item">
+            <a href="https://yellowdotstore.in/" target="_blank"><img src="./assets/Images/yellowdot.png"></a>
+        </div>
+        <div class="item">
+            <a href="https://www.wrapcart.com/" target="_blank"><img src="./assets/Images/wrapcart.png"></a>
+        </div>
+        <div class="item">
+            <a href="https://incampus.in/" target="_blank"><img src="./assets/Images/incampus-03.png"></a>
+        </div>
+        <div class="item">
+            <a href="https://www.codingninjas.com/" target="_blank"><img src="./assets/Images/cn-03.png"></a>
+        </div>
+        <div class="item prev">
+            <a href="https://www.wrapcart.com/" target="_blank"><img src="./assets/Images/Merge-03.png"></a>
+        </div>
+        <div class="button-container">
+            <div class="button" style="padding-right: 13px; padding-left: 10px;"><i class="fas fa-angle-left"></i></div>
+            <div class="button" style="padding-left: 13px; padding-right: 10px;"><i class="fas fa-angle-right"></i></div>
+        </div>
+    </div>
+    <script src="./assets/JS Files/sponsors.js"></script>
     <script src="./assets/JS Files/landingpage.js"></script>
   </body>
 </html>
