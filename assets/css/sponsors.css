@@ -67,7 +67,7 @@ h2 {
   padding: 10px;
   padding-left: 25px;
   color: white;
-  margin: 0;
+  
   letter-spacing: 2px;
 }
 h2 strong {
@@ -230,118 +230,17 @@ h2:after {
   opacity: 1;
   transform: none;
 }
+.sponserHeader strong
+{
+  font-size: 1.5em;
+  margin: 30px auto 20px !important;
+}
+.sponserHeader{
+  padding: 70px;
+}
+
 @media screen and (max-width: 770px) {
   .card {
     margin: 20px !important;
   }
-<<<<<<< HEAD
-  
-  .items .item {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    overflow: hidden;
-    transition: all 300ms ease-in-out;
-    z-index: -1;
-    opacity: 0;
-  }
-  
-  .item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .item.active {
-    opacity: 1;
-    z-index: 99;
-    box-shadow: 0px 0px 105px -35px rgba(0, 0, 0, 0.75);
-  }
-  
-  .item.prev {
-    z-index: 2;
-    opacity: 0.25;
-    transform: translate(-125%, -50%);
-  }
-  
-  .item.next {
-    z-index: 2;
-    opacity: 0.25;
-    transform: translate(25%, -50%);
-  }
-  
-  .items .button-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 800px;
-    z-index: -100;
-  }
-  
-  .button-container .button {
-    color: #fff;
-    font-size: 32px;
-    cursor: pointer;
-    position: relative;
-    opacity: 0.75;
-    transition: all 300ms ease-in-out;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  
-  .button-container .button:hover {
-    opacity: 1;
-  }
-  
-  .button-container .button:before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50px;
-    height: 50px;
-    background-color: rgba(0, 0, 0, 1);
-    border-radius: 50%;
-    z-index: -99;
-  }
-  
-  .button-container .button:nth-child(1) {
-    float: left;
-  }
-  
-  .button-container .button:nth-child(2) {
-    float: right;
-  }
-  
-  .nm h1 {
-    font-size: 4.5em;
-    font-weight: 400;
-    margin: 40px auto 40px;
-    text-align: center;
-    color: rgba(28, 28, 28, 0.735) !important;
-    text-shadow: 1px 1px 5px rgba(48, 47, 47, 0.598);
-  }
-  
-  .sponsback{
-    height: 500px;
-  }
-  
-  @media only screen and (max-width:1025px)
-  {
-    .items{
-      top: 40%;
-    }
-    .sponsback{
-      padding: 50px;
-    }
-  }
-  
-=======
 }
->>>>>>> 9fc3d48e3f59ed8dadffacf4bb2cdb8787bbfefb
