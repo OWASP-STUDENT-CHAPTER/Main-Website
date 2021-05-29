@@ -61,7 +61,7 @@
     opacity: 0.75;
     transition: all 300ms ease-in-out;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
   
   .button-container .button:hover {
@@ -90,8 +90,12 @@
   }
   
   .nm h1 {
-    color: black;
-    text-shadow: 1px 1px 5px black;
+    font-size: 4.5em;
+    font-weight: 400;
+    margin: 40px auto 40px;
+    text-align: center;
+    color: rgba(28, 28, 28, 0.735) !important;
+    text-shadow: 1px 1px 5px rgba(48, 47, 47, 0.598);
   }
   
   .sponsback{
