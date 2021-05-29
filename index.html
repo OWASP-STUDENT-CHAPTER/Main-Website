@@ -42,6 +42,9 @@
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
       crossorigin="anonymous"
     ></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>
     
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -75,19 +78,19 @@
     </section>
     <!--Main content-->
     <section class="about_owasp" id="aboutUs">
-      <div class="grid">
-        <div class="grid-item">
-          <div class="card">     
+      <div class="aboutgrid">
+        <div class="aboutgrid-item">
+          <div class="aboutcard">     
             
-            <div class="card-content">           
-              <div class="MyDiv">
+            <div class="aboutcard-content">           
+              <div class="aboutMyDiv">
                
                 </div>
               <br><br>
-             <h3 class="card-header">ABOUT </h3>
+             <h3 class="aboutcard-header">ABOUT </h3>
             <br>
-              <h1 class="card-head">OWASP </h1>
-              <p class="card-text">
+              <h1 class="aboutcard-head">OWASP </h1>
+              <p class="aboutcard-text">
                 <br>
                 <br>
                 Thapar Institute of Engineering and Technology (TIET) has been a steady source of highly skilled talent to the nation as well as overseas. A pioneer in engineering education, research and innovation. The team of OWASP Student Chapter, one of the gilt-edged coding society, involves ingenious mind solvers who are eager to make the world a better place to live in with their innovative techniques and discoveries. By successfully organizing many hackathons, tech-talks, workshops and coding nights, we have always strived hard to maintain the coding culture throughout the campus.
@@ -134,18 +137,74 @@
                 <div class="clash-card__level clash-card__level--barbarian">
                   ONLINE
                 </div>
-                <div class="clash-card__unit-name">CODIGO</div>
+                <div class="clash-card__unit-name">HACKOWASP 3.0</div>
                 <div class="clash-card__unit-description">
-                  Codigo was a 4-day event conducted in December 2020. It
-                  had 4 subevents to test the participants’ skills from
-                  deciphering to debugging,to dive deeper into the relm of
-                  coding and showing off their marketing skills. With
-                  participation of 850+, the event garnered a lot of
-                  appreciation.
+                  A fun 36 hour long hackathon, one of the foremost events of Owasp was organised in online mode from 26-28 march 2021.The problem statements were based on real world problems which proved to be a mindbender to complete within the given time limit. Staggering 900+ number of participants with many teams from NIT's and IIT's too took part in the event. 
                 </div>
 
                 <div
                   class="clash-card__unit-stats clash-card__unit-stats--barbarian clearfix"
+                >
+                  <div class="one-third">
+                    <div class="stat-value">
+                      <a
+                        href="#"
+                        title="Registerations"
+                        style="text-decoration: none; color: white"
+                        ><i class="fas fa-user-alt"></i
+                      ></a>
+                    </div>
+                    <div class="stat">900+</div>
+                  </div>
+
+                  <div class="one-third">
+                    <div class="stat-value">
+                      <a
+                        href="#"
+                        title="Universities"
+                        style="text-decoration: none; color: white"
+                        ><i class="fas fa-university"></i
+                      ></a>
+                    </div>
+                    <div class="stat">50</div>
+                  </div>
+
+                  <div class="one-third no-border">
+                    <div class="stat-value">
+                      <a
+                        href="#"
+                        title="Duration"
+                        style="text-decoration: none; color: white"
+                        ><i class="far fa-clock"></i
+                      ></a>
+                    </div>
+                    <div class="stat">36h</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4">
+            <div class="wrapper">
+              <div class="clash-card archer" data-aos="fade-up"
+              data-aos-anchor-placement="top-center">
+                <div class="clash-card__image clash-card__image--archer">
+                  <img
+                    src="./assets/logos/codigo-logo-white.png"
+                    alt="archer"
+                  />
+                </div>
+                <div class="clash-card__level clash-card__level--archer">
+                  ONLINE
+                </div>
+                <div class="clash-card__unit-name">CODIGO</div>
+                <div class="clash-card__unit-description">
+                  Codigo was a 4-day event conducted in December 2020. It had 4 subevents to test the participants’ skills from deciphering to debugging,to dive deeper into the relm of coding and showing off their marketing skills. With participation of 850+, the event garnered a lot of appreciation.
+                </div>
+
+                <div
+                  class="clash-card__unit-stats clash-card__unit-stats--archer clearfix"
                 >
                   <div class="one-third">
                     <div class="stat-value">
@@ -189,28 +248,21 @@
 
           <div class="col-xl-4">
             <div class="wrapper">
-              <div class="clash-card archer" data-aos="fade-up"
+              <div class="clash-card wizard" data-aos="fade-left"
               data-aos-anchor-placement="top-center">
-                <div class="clash-card__image clash-card__image--archer">
-                  <img
-                    src="./assets/logos/logo-hackowasp2.png"
-                    alt="archer"
-                  />
+                <div class="clash-card__image clash-card__image--wizard">
+                  <img src="./assets/logos/logo-hackowasp2.png" alt="wizard" />
                 </div>
-                <div class="clash-card__level clash-card__level--archer">
+                <div class="clash-card__level clash-card__level--wizard">
                   OFFLINE
                 </div>
                 <div class="clash-card__unit-name">HACKOWASP 2.0</div>
                 <div class="clash-card__unit-description">
-                  24 hour Hackathon conducted on Feb 1, 2020. With theme
-                  YOUR FUTURE, OUR VISION it gave students a platform to
-                  come up with innovative ideas to solve simple, practical
-                  problems.With over 500 participants from 20+ colleges of
-                  the nation, the hackathon was a huge success.
+                  24 hour Hackathon conducted on Feb 1, 2020. With theme YOUR FUTURE, OUR VISION it gave students a platform to come up with innovative ideas to solve simple, practical problems.With over 500 participants from 20+ colleges of the nation, the hackathon was a huge succes
                 </div>
 
                 <div
-                  class="clash-card__unit-stats clash-card__unit-stats--archer clearfix"
+                  class="clash-card__unit-stats clash-card__unit-stats--wizard clearfix"
                 >
                   <div class="one-third">
                     <div class="stat-value">
@@ -254,68 +306,6 @@
 
           <div class="col-xl-4">
             <div class="wrapper">
-              <div class="clash-card wizard" data-aos="fade-left"
-              data-aos-anchor-placement="top-center">
-                <div class="clash-card__image clash-card__image--wizard">
-                  <img src="./assets/logos/logo-techniti.png" alt="wizard" />
-                </div>
-                <div class="clash-card__level clash-card__level--wizard">
-                  OFFLINE
-                </div>
-                <div class="clash-card__unit-name">TECHNITI</div>
-                <div class="clash-card__unit-description">
-                  Techniti is our annual events to inculcate the value of
-                  coding in beginners using an activity they are already
-                  familiar with. The event helps the newly arrived first
-                  year to compete among their peers and function out a way
-                  to implement their newly developed coding skill.
-                </div>
-
-                <div
-                  class="clash-card__unit-stats clash-card__unit-stats--wizard clearfix"
-                >
-                  <div class="one-third">
-                    <div class="stat-value">
-                      <a
-                        href="#"
-                        title="Registerations"
-                        style="text-decoration: none; color: white"
-                        ><i class="fas fa-user-alt"></i
-                      ></a>
-                    </div>
-                    <div class="stat">500+</div>
-                  </div>
-
-                  <div class="one-third">
-                    <div class="stat-value">
-                      <a
-                        href="#"
-                        title="Universities"
-                        style="text-decoration: none; color: white"
-                        ><i class="fas fa-university"></i
-                      ></a>
-                    </div>
-                    <div class="stat">40</div>
-                  </div>
-
-                  <div class="one-third no-border">
-                    <div class="stat-value">
-                      <a
-                        href="#"
-                        title="Duration"
-                        style="text-decoration: none; color: white"
-                        ><i class="far fa-clock"></i
-                      ></a>
-                    </div>
-                    <div class="stat">48h</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-4">
-            <div class="wrapper">
               <div class="clash-card barbarian" data-aos="fade-right"
               data-aos-anchor-placement="top-center">
                 <div class="clash-card__image clash-card__image--barbarian">
@@ -325,16 +315,11 @@
                   />
                 </div>
                 <div class="clash-card__level clash-card__level--barbarian">
-                  ONLINE
+                  OFLINE
                 </div>
-                <div class="clash-card__unit-name">HACKOWASP 3.0</div>
+                <div class="clash-card__unit-name">TECHNITI</div>
                 <div class="clash-card__unit-description">
-                  Codigo was a 4-day event conducted in December 2020. It
-                  had 4 subevents to test the participants’ skills from
-                  deciphering to debugging,to dive deeper into the relm of
-                  coding and showing off their marketing skills. With
-                  participation of 850+, the event garnered a lot of
-                  appreciation.
+                  Techniti is our annual events to inculcate the value of coding in beginners using an activity they are already familiar with. The event helps the newly arrived first year to compete among their peers and function out a way to implement their newly developed coding skill.
                 </div>
   
                 <div
@@ -349,7 +334,7 @@
                         ><i class="fas fa-user-alt"></i
                       ></a>
                     </div>
-                    <div class="stat">850+</div>
+                    <div class="stat">500+</div>
                   </div>
   
                   <div class="one-third">
@@ -361,7 +346,7 @@
                         ><i class="fas fa-university"></i
                       ></a>
                     </div>
-                    <div class="stat">50</div>
+                    <div class="stat">40</div>
                   </div>
   
                   <div class="one-third no-border">
@@ -373,7 +358,7 @@
                         ><i class="far fa-clock"></i
                       ></a>
                     </div>
-                    <div class="stat">96h</div>
+                    <div class="stat">48h</div>
                   </div>
                 </div>
               </div>
@@ -391,16 +376,11 @@
                   />
                 </div>
                 <div class="clash-card__level clash-card__level--barbarian">
-                  ONLINE
+                  OFLINE
                 </div>
-                <div class="clash-card__unit-name">HACKOWASP 3.0</div>
+                <div class="clash-card__unit-name">CURSED WEEK</div>
                 <div class="clash-card__unit-description">
-                  Codigo was a 4-day event conducted in December 2020. It
-                  had 4 subevents to test the participants’ skills from
-                  deciphering to debugging,to dive deeper into the relm of
-                  coding and showing off their marketing skills. With
-                  participation of 850+, the event garnered a lot of
-                  appreciation.
+                  It was a mini-online coding based event with a blend of fabulous harry potter series conducted during pandemic to engage a larger audience. It had 150+ participants. 
                 </div>
   
                 <div
@@ -415,7 +395,7 @@
                         ><i class="fas fa-user-alt"></i
                       ></a>
                     </div>
-                    <div class="stat">850+</div>
+                    <div class="stat">150+</div>
                   </div>
   
                   <div class="one-third">
@@ -427,7 +407,7 @@
                         ><i class="fas fa-university"></i
                       ></a>
                     </div>
-                    <div class="stat">50</div>
+                    <div class="stat">15</div>
                   </div>
   
                   <div class="one-third no-border">
@@ -439,66 +419,118 @@
                         ><i class="far fa-clock"></i
                       ></a>
                     </div>
-                    <div class="stat">96h</div>
+                    <div class="stat">7 Days</div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+          <div class="gallery-button-div">
+            <a href="./GALLERY/hacko gallery.html" target="_blank"><button class="aboutbutton" style="margin: 40px 0px">
+              Open Gallery
+            </button></a>
           </div>
         </div>
       </div>
     </section>
 
     <!--Our Past Sponsors-->
-    <div id="sponsors" style="position: relative; top: -60px;"></div>
-    <div class="sponsback"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
-    <header class="nm mt-15" >
-        <h1>Sponsors</h1>
-    </header>
+    <h2>
+      <strong>Past Sponsors<span></span></strong>
+    </h2>
 
+    <div class="cards">
+      <figure class="card">
+        <a href="https://www.taskade.com/" target="_blank">
+        <img src="./assets/sponsors/codechef.png" />
+      </a>
+      </figure>
+      <figure class="card">
+        <a href="https://www.framer.com/" target="_blank">
+        <img src="./assets/sponsors/codingblocks.png" />
+      </a>
+      </figure>
+      
+      <figure class="card">
+        <a href="https://givemycertificate.com/" target="_blank">
+        <img src="./assets/sponsors/replit-03.png" />
+      </a>
+      </figure>
 
-    <div class="items" >
-        <div class="item active">
-            <a href="https://codingblocks.com/" target="_blank"><img src="./assets/Images/codingblocks.png"></a>
-        </div>
-        <div class=" item next">
-            <a href="https://www.wanderlooms.com/" target="_blank"><img src="./assets/Images/wanderlooms.png"></a>
-        </div>
-        <div class="item">
-            <a href="https://www.eduvantagebox.com/" target="_blank"><img src="./assets/Images/eduvantage.png"></a>
-        </div>
-        <div class="item">
-            <a href="https://www.framer.com/" target="_blank"><img src="./assets/Images/framer.png"></a>
-        </div>
-        <div class="item">
-            <a href="https://balsamiq.com/" target="_blank"><img src="./assets/Images/balsamiq.png"></a>
-        </div>
-        <div class="item">
-            <a href="https://www.grabon.in/" target="_blank"><img src="./assets/Images/grabon.png"></a>
-        </div>
-        <div class="item">
-            <a href="https://skolar.in/" target="_blank"><img src="./assets/Images/skolar.png"></a>
-        </div>
-        <div class="item">
-            <a href="https://yellowdotstore.in/" target="_blank"><img src="./assets/Images/yellowdot.png"></a>
-        </div>
-        <div class="item">
-            <a href="https://www.wrapcart.com/" target="_blank"><img src="./assets/Images/wrapcart.png"></a>
-        </div>
-        <div class="item">
-            <a href="https://incampus.in/" target="_blank"><img src="./assets/Images/incampus-03.png"></a>
-        </div>
-        <div class="item">
-            <a href="https://www.codingninjas.com/" target="_blank"><img src="./assets/Images/cn-03.png"></a>
-        </div>
-        <div class="item prev">
-            <a href="https://www.wrapcart.com/" target="_blank"><img src="./assets/Images/Merge-03.png"></a>
-        </div>
-        <div class="button-container">
-            <div class="button" style="padding-right: 13px; padding-left: 10px;"><i class="fas fa-angle-left"></i></div>
-            <div class="button" style="padding-left: 13px; padding-right: 10px;"><i class="fas fa-angle-right"></i></div>
-        </div>
+      <figure class="card">
+        <a href="https://repl.it/" target="_blank">
+        <img src="./assets/sponsors/wolfram language.png" />
+      </a>
+      </figure>
+      
+      <figure class="card">
+        <a href="https://www.sashido.io/en/" target="_blank">
+        <img src="./assets/sponsors/progate.png" />
+      </a>
+      </figure>
+      <figure class="card">
+        <a href="https://progate.com/" target="_blank">
+        <img src="./assets/sponsors/dsc-03.png" />
+      </a>
+      </figure>
+      <figure class="card">
+        <a href="https://testmail.app/" target="_blank">
+        <img src="./assets/sponsors/gfg-03.png" />
+      </a>
+      </figure>
+      <figure class="card">
+        <a href="https://www.interviewcake.com/" target="_blank">
+        <img src="./assets/sponsors/InterviewCake-03.png" />
+      </a>
+      </figure>
+      <figure class="card">
+        <a href="https://www.joinglimpse.com/" target="_blank">
+        <img src="./assets/sponsors/CNLOGO.svg"/>
+      </a>
+      </figure>
+      <figure class="card">
+        <a href="https://www.grabon.in/" target="_blank">
+        <img src="./assets/sponsors/merge-logo.png" />
+      </a>
+      </figure>
+      <figure class="card">
+        <a href="https://badelog.in/" target="_blank">
+        <img src="./assets/sponsors/framer-logo.png" />
+      </a>
+      </figure>
+      <figure class="card">
+        <a href="https://www.thefinladder.com/" target="_blank">
+          <img src="./assets/sponsors/duexpress.png" />
+        </a>
+      </figure>
     </div>
+    <!--<section>
+      <div class="split-slideshow">
+        <div class="slideshow">
+          <div class="slider">
+            <div class="item">
+              <img src="hacko3.jpeg" />
+            </div>
+            <div class="item">
+              <img src="https://raw.githubusercontent.com/supahfunk/supah-codepen/master/canyon-3.jpg" />
+            </div>
+            <div class="item">
+              <img src="https://raw.githubusercontent.com/supahfunk/supah-codepen/master/canyon-4.jpg" />
+            </div>
+            <div class="item">
+              <img src="https://raw.githubusercontent.com/supahfunk/supah-codepen/master/canyon-1.jpg" />
+            </div>
+          </div>
+        </div>
+        <div class="slideshow-text">
+          <div class="item">Hackowasp 3.0</div>
+          <div class="item">Codigo</div>
+          <div class="item">Hackowasp 2.0</div>
+          <div class="item">Tech-niti</div>
+        </div>
+      </div>
+    </section>-->
+    <script  src="./assets/JS Files/glimpses.js"></script>
     <script src="./assets/JS Files/sponsors.js"></script>
     <script src="./assets/JS Files/landingpage.js"></script>
     <script>

@@ -21,12 +21,12 @@ html {
   min-height: 100vh;
 }
 
-.card{
+.aboutcard{
   background-color:#1E1E1E;
   
 }
 
-.grid {
+.aboutgrid {
   display: grid;
   width: 114em;
   grid-gap: 6rem;
@@ -35,7 +35,7 @@ html {
   background-color:1E1E1E;
 }
 
-.grid-item {
+.aboutgrid-item {
   background-color: #fff;
   border-radius: 2rem;
   overflow: hidden;
@@ -44,7 +44,7 @@ html {
   transition: 0.15s;
 }
 
-.grid-item:hover {
+.aboutgrid-item:hover {
   transform: translateY(-0.35%);
   box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
 }
@@ -57,12 +57,12 @@ card-image {
 	height: 300px;
          }
 
-.card-content {
+.aboutcard-content {
   padding: 0.5rem;
   background-color:#1E1E1E;
 }
 
-.card-header {
+.aboutcard-header {
   font-size: 6rem;
   font-weight: 500;
   color: #FFFFFF;
@@ -72,7 +72,7 @@ card-image {
   line-height: 80px;
   
 }
-.card-head {
+.aboutcard-head {
   font-size: 6rem;
   font-weight: 500;
   color: #00BFFF;
@@ -82,7 +82,7 @@ card-image {
   line-height: 20px;
 }
 
-.card-text {
+.aboutcard-text {
   font-size: 1.7rem;
   letter-spacing: 0.1rem;
   line-height: 1.7;
@@ -94,13 +94,13 @@ card-image {
 }
 
 
-.card-btn:hover,
-.card-btn:active {
+.aboutcard-btn:hover,
+.aboutcard-btn:active {
   background-color: #c2cffc;
 }
 
-.card-btn:hover span,
-.card-btn:active span {
+.aboutcard-btn:hover span,
+.aboutcard-btn:active span {
   margin-left: 15rem;
 }
 
@@ -109,7 +109,7 @@ card-image {
     padding: 3rem;
   }
 
-  .grid {
+  .aboutgrid {
     grid-gap: 3rem;
   }
 }
@@ -143,7 +143,7 @@ card-image {
        @keyframes spin{
 	100%{-webkit-transform: rotate(360deg);}
        }
-      .MyDiv{
+      .aboutMyDiv{
 	position: relative; /* Declared position allows for location changes */
 	top:12q00px; /* Moves the image 2px closer to the top of the page */
       }
