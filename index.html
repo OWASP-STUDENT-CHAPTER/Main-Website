@@ -42,6 +42,11 @@
       crossorigin="anonymous"
     ></script>
     
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
     <title>Hello, world!</title>
   </head>
   <body>
@@ -116,13 +121,13 @@
 
         <div
           class="row justify-content-center"
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-center"
+          
           style="display: flex; justify-content: center"
         >
           <div class="col-xl-4">
             <div class="wrapper">
-              <div class="clash-card barbarian">
+              <div class="clash-card barbarian" data-aos="fade-right"
+              data-aos-anchor-placement="top-center">
                 <div class="clash-card__image clash-card__image--barbarian">
                   <img
                     src="./assets/logos/codigo-logo-white.png"
@@ -187,7 +192,8 @@
 
           <div class="col-xl-4">
             <div class="wrapper">
-              <div class="clash-card archer">
+              <div class="clash-card archer" data-aos="fade-up"
+              data-aos-anchor-placement="top-center">
                 <div class="clash-card__image clash-card__image--archer">
                   <img
                     src="./assets/logos/logo-hackowasp2.png"
@@ -251,7 +257,8 @@
 
           <div class="col-xl-4">
             <div class="wrapper">
-              <div class="clash-card wizard">
+              <div class="clash-card wizard" data-aos="fade-left"
+              data-aos-anchor-placement="top-center">
                 <div class="clash-card__image clash-card__image--wizard">
                   <img src="./assets/logos/logo-techniti.png" alt="wizard" />
                 </div>
@@ -312,7 +319,8 @@
 
           <div class="col-xl-4">
             <div class="wrapper">
-              <div class="clash-card barbarian">
+              <div class="clash-card barbarian" data-aos="fade-right"
+              data-aos-anchor-placement="top-center">
                 <div class="clash-card__image clash-card__image--barbarian">
                   <img
                     src="./assets/logos/logo-hackowasp3.jpg"
@@ -377,7 +385,8 @@
   
           <div class="col-xl-4">
             <div class="wrapper">
-              <div class="clash-card barbarian">
+              <div class="clash-card barbarian" data-aos="fade-left"
+              data-aos-anchor-placement="top-center">
                 <div class="clash-card__image clash-card__image--barbarian">
                   <img
                     src="./assets/logos/logo-hackowasp3.jpg"
@@ -446,5 +455,8 @@
         
 
     <script src="./assets/JS Files/landingpage.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
