@@ -12,6 +12,7 @@
   background: url('../media/landinggif.gif'), rgba(0, 0, 0, 1);
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
 }
 
 /* ====================================
