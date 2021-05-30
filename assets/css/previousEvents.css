@@ -219,6 +219,7 @@ h1{
 .clash-card {
   background: white;
   width: 350px;
+  height: 100%;
   display: inline-block;
   border-radius: 19px;
   position: relative;
@@ -259,14 +260,14 @@ h1{
   transition: width 0.5s ease-in-out;
 }
 .wrapper:hover .clash-card__image--barbarian img {
-  width: 120%;
+  width: 130%;
 }
 
 .clash-card__image--archer {
   background: #1f2833;
 }
 .clash-card__image--archer img {
-  width: 120%;
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -275,7 +276,7 @@ h1{
 }
 
 .wrapper:hover .clash-card__image--archer img {
-  width: 140%;
+  width: 130%;
 }
 
 .clash-card__image--wizard {
@@ -292,7 +293,7 @@ h1{
 }
 
 .wrapper:hover .clash-card__image--wizard img {
-  width: 120%;
+  width: 130%;
 }
 
 .clash-card__level {

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 .abs,
 h2:after,
 .cards .card figcaption,
@@ -235,12 +238,18 @@ h2:after {
   font-size: 1.5em;
   margin: 30px auto 20px !important;
 }
-.sponserHeader{
-  padding: 70px;
+.sponsorHeader{
+  padding: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 4rem;
 }
 
 @media screen and (max-width: 770px) {
   .card {
     margin: 20px !important;
+  }
+  .sponsorHeader
+  {
+    font-size: 3rem;
   }
 }
