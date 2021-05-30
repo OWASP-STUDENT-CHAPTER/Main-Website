@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Cool";
+    src: url("../fonts/cool.ttf");
+  }
+  
+  html body {
+    margin: 0px;
+    font-family: "segoe ui";
+    overflow-x: hidden;
+  }
+  
+  .nav {
+    height: auto;
+    width: 100%;
+    position: fixed;
+    background-color: #0D1634;
+    z-index: 999;
+    transition: 0.5s all;
+    transition-delay: 0.2s;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    font-size: 22px;
+    color: #fff;
+    float: left;
+    padding: 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links > a {
+    padding: 13px 20px 13px 20px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    border-radius: 50px;
+    margin: 20px 5px;
+  }
+
+  
+  .nav > .nav-links > a:hover {
+    background-color: #2D3F6B;
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (min-width: 840px) {
+    .nav > .nav-links {
+      font-size: 18px;
+      margin: auto 50px;
+      margin-left: auto;
+    }
+    .hellobanner {
+      height: 60px;
+      margin-left: 10px;
+    }
+  }
+  
+  @media (max-width: 840px) {
+    .nav {
+      background: #0D1634;
+    }
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 2%;
+      top: 7%;
+    }
+  
+    .nav-title {
+      position: relative;
+      top: -3px;
+    }
+  
+    .nav > .nav-links > a {
+      border-radius: 0px;
+    }
+  
+    .hellobanner {
+      height: 40px;
+    }
+  
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background: #0D1634;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 58px;
+      left: 0px;
+    }
+  
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+      font-size: 15px;
+      color: #fff !important;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 400;
+      text-align: center;
+    }
+  
+    .nav > #nav-check:not(:checked) + .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked + .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+  
