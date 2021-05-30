@@ -25,165 +25,6 @@
     transform: translateY(-15px);
   }
 }
-/*
-.heading-prizes {
-  padding: 30px;
-}
-
-.heading-prizes .ml9 {
-  position: relative;
-  font-weight: 200;
-  font-size: 4em;
-}
-
-.heading-prizes .ml9 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  padding-top: 0.2em;
-  padding-right: 0.05em;
-  padding-bottom: 0.1em;
-  overflow: hidden;
-}
-
-.heading-prizes .ml9 .letter {
-  transform-origin: 50% 100%;
-  display: inline-block;
-  line-height: 1em;
-}
-
-.pin {
-  height: 45px;
-  border-radius: 15px;
-  padding: 5px 0 5px 5px;
-  margin: 0;
-}
-.pin_img {
-  margin: 0;
-  height: 100px;
-  top: -40px;
-  left: -40px;
-  float: left;
-  position: relative;
-  z-index: 99;
-}
-
-.przbox {
-  margin: 0;
-  padding: 0;
-  max-height: 250px;
-}
-.przimg {
-  width: 100%;
-  margin: 0;
-  height: 170px;
-  padding: 0;
-}
-.przimg1 {
-  width: 100%;
-  margin: 0;
-  height: 200px;
-  padding: 0;
-}
-
-.secondprize,
-.thirdprize {
-  position: relative;
-  top: -20px;
-  background-color: #1f2833;
-  border-radius: 10px;
-  padding: 10px 0px;
-  padding-right: 20px;
-}
-
-.firstprize {
-  position: relative;
-  top: -20px;
-  background-color: #1f2833;
-  border-radius: 10px;
-  padding: 10px 0px;
-  padding-right: 20px;
-}
-
-.firstprize {
-  padding-right: 5px !important;
-}
-
-.st {
-  background-color: #45a29e;
-  font-weight: 300;
-  font-size: 40px;
-}
-
-.amount {
-  text-transform: uppercase;
-  font-size: 15px;
-  margin-top: 10px;
-  font-weight: 100;
-  color: #1a90e0;
-  font-family: sans-serif;
-}
-
-.amount1 {
-  text-transform: uppercase;
-  margin-top: 10px;
-  font-size: 20px;
-  font-weight: 100;
-  color: #1a90e0;
-  font-family: sans-serif;
-}
-
-.cash {
-  margin-top: 10px;
-  font-size: 40px;
-  color: black;
-  font-weight: 900;
-  line-height: 1.6;
-  font-family: "Poppins", sans-serif;
-}
-
-.desp {
-  padding: 20px;
-  margin-bottom: 20px;
-  font-weight: 100;
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-}
-
-.cash1 {
-  margin-top: 10px;
-  font-size: 45px;
-  color: black;
-  font-weight: 900;
-  line-height: 1.6;
-  font-family: "Poppins", sans-serif;
-}
-
-.desp1 {
-  padding: 20px;
-  margin-bottom: 20px;
-  font-weight: 100;
-  font-family: "Poppins", sans-serif;
-  font-size: 17px;
-}
-
-.bouncer {
-  position: relative;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
-}
-
-.bouncer:hover {
-  cursor: pointer;
-  animation-name: bounce;
-  -moz-animation-name: bounce;
-}
-*/
 /*--Previous Events--*/
 
 .slide-container {
@@ -249,7 +90,7 @@ h1{
 }
 
 .clash-card__image--barbarian {
-  background: #1f2833;
+  background: #2ab3caca;
 }
 .clash-card__image--barbarian img {
   width: 100%;
@@ -264,7 +105,7 @@ h1{
 }
 
 .clash-card__image--archer {
-  background: #1f2833;
+  background: #2ab3caca;
 }
 .clash-card__image--archer img {
   width: 100%;
@@ -280,7 +121,7 @@ h1{
 }
 
 .clash-card__image--wizard {
-  background: #2ab3caca;
+  background: #00fffb5e;
 }
 .clash-card__image--wizard img {
   width: 100%;
@@ -329,21 +170,21 @@ h1{
 }
 
 .clash-card__unit-stats--barbarian {
-  background: #ff3c3c;
+  background: #32cd32d0;
 }
 .clash-card__unit-stats--barbarian .one-third {
   border-right: 1px solid #1f2833;
 }
 
 .clash-card__unit-stats--archer {
-  background: #ffa73c;
+  background: #F51720;
 }
 .clash-card__unit-stats--archer .one-third {
   border-right: 1px solid #1f2833;
 }
 
 .clash-card__unit-stats--wizard {
-  background: #ffa73c;
+  background: #0d1634f3;
 }
 .clash-card__unit-stats--wizard .one-third {
   border-right: 1px solid #1f2833;
@@ -427,7 +268,7 @@ a {
   padding: 10px 50px;
   border-radius: 30px;
   text-align: center;
-  border: 2px solid rgb(255, 204, 0);
+  border: 2px solid #4CD7D0;
   background-color: transparent;
   position: relative;
   top: 5%;
@@ -438,7 +279,7 @@ a {
 
 .aboutbutton{
   transition: background-color 0.5s;
-  color:rgb(255, 204, 0) !important;
+  color:#4CD7D0 !important;
 }
 
 .aboutbutton:focus{
@@ -446,7 +287,7 @@ a {
 }
 
 .aboutbutton:hover{
-  background-color: rgb(255, 204, 0);
+  background-color: #4CD7D0;
   color: white !important;
 }
 

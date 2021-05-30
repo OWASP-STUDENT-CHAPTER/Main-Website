@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 .c-faq__answer {
     position: absolute;
     opacity: 0;
@@ -19,7 +21,7 @@
   }
   */
   .faq{
-    background-color: #f1f2f3;
+    background-color: #1e1e1e;
     font-size: 25px;
   }
   
@@ -31,10 +33,10 @@
   }
   
   .section__headline {
-    font-family: "Varela Round", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 62px;
     font-weight: light;
-    color: #1e88e5;
+    color: #4CD7D0;
     padding-left: 15px;
     padding-top: 100px;
   }
@@ -64,7 +66,7 @@
   .c-faq__title {
     cursor: pointer;
     font-weight: 500;
-    background: white;
+    background: #1e1e1e;
     z-index: 10;
     position: relative;
     font-size: 1.1em;
@@ -84,12 +86,16 @@
   }
   
   .c-faq--active .c-faq__title {
-    color: #1e88e5;
+    color: #4CD7D0;
   }
   .c-faq--active .c-faq__title::after {
     opacity: 1;
     transform: rotateZ(90deg);
     display: inline-block;
+  }
+
+  .c-faq__title{
+    color:white;
   }
   
   .c-faq__answer {
@@ -98,7 +104,7 @@
     transition: all 0.1s;
     z-index: 1;
     font-size: 0.9em;
-    color: #505050;
+    color: white;
   }
   
   .c-faq--active .c-faq__answer {
@@ -112,7 +118,7 @@
     transition: all 0.2s;
     border-radius: 3px;
     border: 1px solid #f1f2f3;
-    border-top: 1px solid #1e88e5;
+    border-top: 1px solid #4CD7D0;
     padding: 20px;
   }
   
@@ -146,7 +152,7 @@
       transform: translateY(-50%);
       left: 50%;
       width: 50%;
-      border-left-color: #1e88e5;
+      border-left-color: #4CD7D0;
       border-top-color: #f1f2f3;
     }
   }
@@ -161,5 +167,5 @@
     transition: opacity 0.2s ease-in-out;
   }
   .c-note a {
-    color: #1e88e5;
+    color: #4CD7D0;
   }

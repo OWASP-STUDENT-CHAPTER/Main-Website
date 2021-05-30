@@ -22,7 +22,7 @@ html {
 }
 
 .aboutcard{
-  background-color:#1E1E1E;
+  background-color:#1f2833;
   
 }
 
@@ -46,7 +46,7 @@ html {
 
 .aboutgrid-item:hover {
   transform: translateY(-0.35%);
-  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0rem 1rem 4rem #4CD7D0;
 }
 
 card-image {
@@ -59,7 +59,7 @@ card-image {
 
 .aboutcard-content {
   padding: 0.5rem;
-  background-color:#1E1E1E;
+  background-color:#24282f;
 }
 
 .aboutcard-header {
@@ -75,7 +75,7 @@ card-image {
 .aboutcard-head {
   font-size: 6rem;
   font-weight: 500;
-  color: #00BFFF;
+  color: #4CD7D0;
   margin-bottom: 0.4rem;
   font:poppins;
   padding-left:0.4em;
