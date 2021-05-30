@@ -7,9 +7,12 @@
   src: url('../fonts/lemon.otf');
 }
 
-html, body, .home h1 {
+html, body{
   padding: 0;
   margin: 0;
+}
+
+.home h1{
   font-family: 'Bungee Shade', cursive;
 }
 
