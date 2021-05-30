@@ -2,6 +2,7 @@
     font-family: "Cool";
     src: url("../fonts/cool.ttf");
   }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
   
   html body {
     margin: 0px;
@@ -42,6 +43,7 @@
     font-weight: 400;
     border-radius: 50px;
     margin: 20px 5px;
+    font-family: 'Poppins', sans-serif;
   }
 
   

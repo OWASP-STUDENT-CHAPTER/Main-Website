@@ -61,13 +61,13 @@ body {
   font-family: "Alegreya Sans";
 }
 .wrapper {
-  padding: 15px;
+  padding: 30px 15px;
 }
 h2 {
   padding: 10px;
   padding-left: 25px;
   color: white;
-  margin: 0;
+  
   letter-spacing: 2px;
 }
 h2 strong {
@@ -230,6 +230,15 @@ h2:after {
   opacity: 1;
   transform: none;
 }
+.sponserHeader strong
+{
+  font-size: 1.5em;
+  margin: 30px auto 20px !important;
+}
+.sponserHeader{
+  padding: 70px;
+}
+
 @media screen and (max-width: 770px) {
   .card {
     margin: 20px !important;
