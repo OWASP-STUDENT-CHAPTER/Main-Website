@@ -42,7 +42,7 @@
   }
   
   .c-faqs__headline {
-    font-family: "Varela Round", sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: left;
     padding-left: 15px;
     font-size: 1.5em;
@@ -58,7 +58,7 @@
   }
   
   .c-faq {
-    font-family: "Varela Round", sans-serif;
+    font-family: 'Poppins', sans-serif;
     list-style: none;
     margin: 10px 0 5px;
   }

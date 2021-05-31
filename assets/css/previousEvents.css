@@ -121,7 +121,7 @@ h1{
 }
 
 .clash-card__image--wizard {
-  background: #00fffb5e;
+  background: #2ab3caca;
 }
 .clash-card__image--wizard img {
   width: 100%;
@@ -167,17 +167,18 @@ h1{
   padding: 20px;
   margin-bottom: 10px;
   font-weight: bold;
+  font-size:15px;
 }
 
 .clash-card__unit-stats--barbarian {
-  background: #32cd32d0;
+  background: #0d1634f3;
 }
 .clash-card__unit-stats--barbarian .one-third {
   border-right: 1px solid #1f2833;
 }
 
 .clash-card__unit-stats--archer {
-  background: #F51720;
+  background: #0d1634f3;
 }
 .clash-card__unit-stats--archer .one-third {
   border-right: 1px solid #1f2833;
