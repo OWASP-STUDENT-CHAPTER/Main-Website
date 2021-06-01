@@ -1,0 +1,134 @@
+
+
+span {
+    /* display: inline; */
+    margin: none;
+    padding: none;
+    letter-spacing: 0;
+    font-size: 6rem;
+  }
+  .expand span:after {
+    width: 0px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 5rem;
+  }
+  
+  
+  @keyframes expand1{
+    0%{
+        width: 0;
+    }
+    20%
+    {
+      width: 97px;
+    }
+    85%{
+      width: 97px
+    }
+    100%
+    {
+      width: 0;
+    }
+  }
+  @keyframes expand2{
+    0%{
+        width: 0;
+    }
+    20%
+    {
+      width: 65px;
+    }
+    85%{
+      width: 65px;
+    }
+    100%
+    {
+      width: 0;
+    }
+  }
+  @keyframes expand3{
+    0%{
+        width: 0;
+    }
+    20%
+    {
+      width: 255px;
+    }
+    85%
+    {
+      width: 255px;
+    }
+    100%
+    {
+      width: 0;
+    }
+  }
+  @keyframes expand4{
+    0%{
+        width: 0;
+    }
+    20%
+    {
+      width: 170px;
+    }
+    85%
+    {
+      width: 170px;
+    }
+    100%
+    {
+      width: 0;
+    }
+  }
+  @keyframes expand5{
+    0%{
+        width: 0;
+    }
+    20%
+    {
+      width: 150px;
+    }
+    85%
+    {
+      width: 150px;
+    }
+    100%
+    {
+      width: 0;
+    }
+  }
+
+@media (min-width:1070px)
+{
+  .expand span:nth-child(1):after {
+    content: 'pen ';
+    width: auto;
+    transition: 0.5s ease-in;
+    animation: expand1 4s;
+    
+  }
+  .expand span:nth-child(2):after {
+    content: 'eb ';
+    width: auto;
+    animation: expand2 4s;
+  }
+  .expand span:nth-child(3):after {
+    content: 'pplication ';
+    width: auto;
+    animation: expand3 4s;
+  }
+  
+  .expand span:nth-child(4):after {
+    content: 'ecurity ';
+    width: auto;
+    animation: expand4 4s;
+  }
+  .expand span:nth-child(5):after {
+    content: 'roject ';
+    width: auto;
+    animation: expand5 4s;
+  }
+  
+}
