@@ -41,12 +41,14 @@ html {
   overflow: hidden;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition: 0.15s;
+  transition: 0.35s;
 }
 
 .aboutgrid-item:hover {
   transform: translateY(-0.35%);
-  box-shadow: 0rem 1rem 4rem #4CD7D0;
+  transform: scale(1.02);
+  transition: 0.35s;
+  box-shadow: 0rem 0rem 8rem 0.7rem #4cd7d0;
 }
 
 card-image {
