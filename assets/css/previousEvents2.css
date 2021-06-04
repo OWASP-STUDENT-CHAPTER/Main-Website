@@ -190,6 +190,7 @@ body {
 .sliderEvents .box5 {
   background-color: #300050;
 }
+/*
 .sliderEvents .box5 .illustration .inner {
   background-color: #8000ff;
 }
@@ -197,6 +198,7 @@ body {
 .sliderEvents .box5 .illustration .inner::before {
   background-color: rgba(128, 0, 255, 0.4);
 }
+*/
 .sliderEvents .box5 button {
   background-color: #8000ff;
 }
