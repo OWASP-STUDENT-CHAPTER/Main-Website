@@ -6,6 +6,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+   
 }
 
 body{
@@ -13,13 +14,22 @@ body{
     justify-content:center;
     align-items: center;
     min-height: 100vh;
-    background-color: rgba(0, 0, 255, 0.548);
+    
+    background: url("http://joingif.imageonline.co/uploads/joinesgifimage-9730726.gif");
+    background-repeat: repeat-y;
+    background-size: auto 130%;
+    background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+    
+
 }
 
 .container{
     position:relative;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
     align-items: center;
     max-width:1200px;
     flex-wrap:wrap;
@@ -27,6 +37,7 @@ body{
 }
 
 .container .card{
+    
     position: relative;
     width:280px;
     height:400px;
