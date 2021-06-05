@@ -157,7 +157,7 @@ h2:after {
   background: linear-gradient(
     to top,
     transparent,
-    #4CD7D0 15%,
+    #86827f 15%,
     rgba(255, 255, 255, 0.5)
   );
   transition: 0.3s;
@@ -168,7 +168,7 @@ h2:after {
 .news .card:focus,
 .cards .card:active,
 .news .card:active {
-  box-shadow: 0 8px 16px 3px #4CD7D0;
+  box-shadow: 0 8px 16px 3px black;
   transform: translateY(-3px) scale(1.05) rotateX(15deg);
 }
 .cards .card:hover figcaption,

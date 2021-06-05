@@ -232,6 +232,10 @@ body {
     height: 20rem;
     width: 15rem;
   }
+
+  .aboutbutton{
+    left: 40%;
+  }
 }
 .sliderEvents .illustration div::after,
 .sliderEvents .illustration div::before {
@@ -303,6 +307,10 @@ body {
     width: 90%;
     bottom: 13%;
   }
+
+  .aboutbutton{
+    left: 40%;
+  }
 }
 .trail div {
   padding: 2rem;
@@ -314,12 +322,54 @@ body {
 .trail div:hover {
   opacity: 0.6;
 }
+
 @media only screen and (max-width: 650px) {
   .trail div {
     padding: 1rem;
+  }
+
+  .aboutbutton{
+    left: 40%;
   }
 }
 
 .active {
   opacity: 1 !important;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.aboutbutton {
+  padding: 10px 50px;
+  border-radius: 30px;
+  text-align: center;
+  border: 2px solid #4CD7D0;
+  background-color: transparent;
+  position: relative;
+  top: 5%;
+  color: black;
+  font-family: "Poppins";
+  transition: background-color 0.5s;
+  margin-top: 50px;
+  vertical-align: middle;
+  left: 50%;!important
+  top: 50%;
+  transform: translate(-50%, -50%);
+} 
+
+.aboutbutton{
+  transition: background-color 0.5s;
+  color:#4CD7D0 !important;
+}
+
+.aboutbutton:focus{
+  outline: none;
+}
+
+.aboutbutton:hover{
+  background-color: #4CD7D0;
+  color: white !important;
 }
