@@ -12,7 +12,7 @@ html {
 }
 
  .about_owasp {
-  background-image: url("../media/bgAboutOwasp.png");
+  background-image: url("../media/Desktop\ -\ 1.png");
   /*background-color:white;*/
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -33,6 +33,7 @@ html {
 
 
 card-image {
+  
 	background-repeat: no-repeat;
 	background-position: 150% 50%;
 	background-size: cover;
@@ -41,8 +42,9 @@ card-image {
          }
 
 .aboutcard-content {
+  
   padding: 0.5rem;
-  background-color:#24282f;
+ background-color:#0D1634;
 }
 
 .aboutcard-header {
@@ -177,7 +179,9 @@ card-image {
 }
 
 .aboutus_outer_card {
-  background-color: #24282f;
+  background-color: #0D1634;
+  background-image: url("../media/abstract.png");
+
   width: 80%;
   margin: auto;
   height: 100%;
