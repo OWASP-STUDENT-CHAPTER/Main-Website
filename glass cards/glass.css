@@ -31,15 +31,6 @@ body{
     display: flex;
     justify-content: center;    
     align-items: center;
-    max-width:1800px;
-    flex-wrap:wrap;
-    z-index:1;
-}
-.container2{
-    position:relative;
-    display: flex;
-    justify-content: center;    
-    align-items: center;
     max-width:1400px;
     flex-wrap:wrap;
     z-index:1;
