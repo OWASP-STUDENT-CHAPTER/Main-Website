@@ -14,8 +14,8 @@ body{
     justify-content:center;
     align-items: center;
     min-height: 100vh;
-    
-    background: url("http://joingif.imageonline.co/uploads/joinesgifimage-9730726.gif");
+    background-color: cornflowerblue;
+    /*background: url("http://joingif.imageonline.co/uploads/joinesgifimage-9730726.gif");*/
     background-repeat: repeat-y;
     background-size: auto 130%;
     background-size: cover;
@@ -40,7 +40,7 @@ body{
     
     position: relative;
     width:280px;
-    height:400px;
+    height:500px;
     margin:30px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
