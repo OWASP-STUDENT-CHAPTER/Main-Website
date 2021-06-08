@@ -9,6 +9,8 @@
    
 }
 
+
+
 body{
     display: flex;
     justify-content:center;
@@ -26,9 +28,13 @@ body{
 
 }
 
+.btn{
+    margin-top: 0px;
+}
+
 .container{
     position:relative;
-        display: flex;
+    display: flex;
     justify-content: center;    
     align-items: center;
     max-width:3000px;
