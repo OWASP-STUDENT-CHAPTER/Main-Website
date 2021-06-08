@@ -107,3 +107,10 @@ body {
   height: 180px;
   width: 120px;
 }
+i.fab {
+  color: white;
+  margin: 5px 5px;
+}
+i.fab:hover {
+  color: lightblue;
+}
