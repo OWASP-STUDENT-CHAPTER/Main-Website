@@ -26,22 +26,24 @@ body{
 
 }
 
-.container{
+.teamContainer{
     position:relative;
-        display: flex;
+    display: flex;
     justify-content: center;    
     align-items: center;
     max-width:3000px;
     flex-wrap:wrap;
     z-index:1;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
-.container .card{
+.teamContainer .card{
    
     position: relative;
     width:170px;
     height:300px;
-    margin:10px;
+    margin:20px;
     margin-top:30px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
@@ -55,7 +57,7 @@ body{
     backdrop-filter: blur(5px);
 }
 
-.container .card .content{
+.teamContainer .card .content{
     padding:10px;
     text-align: center;
     transform: translateY(100px);
@@ -63,32 +65,32 @@ body{
     transition:0.5s;
 }
 
-.container .card .content{
+.teamContainer .card .content{
     transform: translateY(0px);
     opacity:1;
 }
 
-.container .card .content h3{
+.teamContainer .card .content h3{
     font-size: 1.0em;
     font-weight: 600;
  
     color:white;
     z-index: 1;
 }
-.container .card .content h4{
+.teamContainer .card .content h4{
     font-size: 0.8em;
     color:rgb(255, 0, 106);
     font-weight: 1000;
     
 }
-.container .card .content p{
+.teamContainer .card .content p{
     font-size: 1em;
     color: rgb(253, 5, 150);
     font-weight: 300;
 
 }
 
-.container .card .content a{
+.teamContainer .card .content a{
     position: relative;
     display: inline-block;
     padding: 8px 20px;
