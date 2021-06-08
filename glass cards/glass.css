@@ -10,7 +10,7 @@
 }
 
 body{
-    display: flex;
+    /* display: flex;
     justify-content:center;
     align-items: center;
     min-height: 100vh;
@@ -20,9 +20,16 @@ body{
     background-size: auto 130%;
     background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: fixed; */  
+} 
 
-    
+.btn{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    /* position: absolute; */
+    display: inline;
+    text-align: center;
 
 }
 
