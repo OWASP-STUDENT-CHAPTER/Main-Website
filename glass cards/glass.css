@@ -10,19 +10,27 @@
 }
 
 body{
-    display: flex;
+    /* display: flex;
     justify-content:center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100vh; */
     /* background-color: cornflowerblue; */
-    background: url("PYsJ_G.gif");
-    background-repeat: repeat-y;
+    /* background: url("PYsJ_G.gif"); */
+    background-color: grey;
+    /* background-repeat: repeat-y;
     background-size: auto 130%;
     background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: fixed; */  
+} 
 
-    
+.btn{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    /* position: absolute; */
+    display: inline;
+    text-align: center;
 
 }
 
