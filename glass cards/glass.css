@@ -1,123 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-*
-{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-body{
-    /* display: flex;
+body {
+  /* display: flex;
     justify-content:center;
     align-items: center;
     min-height: 100vh; */
-    /* background-color: cornflowerblue; */
-    /* background: url("PYsJ_G.gif"); */
-    background-color: rgb(7, 9, 17);
-    /* background-repeat: repeat-y;
+  /* background-color: cornflowerblue; */
+  /* background: url("PYsJ_G.gif"); */
+  background-color: rgb(7, 9, 17);
+  /* background-repeat: repeat-y;
     background-size: auto 130%;
     background-size: cover;
   background-position: center center;
-  background-attachment: fixed; */  
-} 
-
-
-.btn{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    align-items: center;
-    /* position: absolute; */
-    display: inline;
-    text-align: center;
-
+  background-attachment: fixed; */
 }
 
-.teamContainer{
-    position:relative;
-    display: flex;
-    justify-content: center;    
-    align-items: center;
-    max-width:3200px;
-    flex-wrap:wrap;
-    z-index:1;
-    margin-right: 100px;
-    margin-left: 100px;
+.btn {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+  /* position: absolute; */
+  display: inline;
+  text-align: center;
 }
 
-.teamContainer .card{
-   
-    position: relative;
-    width:179px;
-    height:320px;
-    margin:20px;
-    margin-top:30px;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-    background: rgba(225, 225, 225, 0.1);
-    overflow: hidden;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    border-top: 1px solid rgba(225, 225, 225, 0.5);
-    border-left: 1px solid rgba(225, 225, 225, 0.5);
-    backdrop-filter: blur(5px);
+.teamContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 3200px;
+  flex-wrap: wrap;
+  z-index: 1;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
-.teamContainer .card .content{
-    padding:10px;
-    text-align: center;
-    transform: translateY(100px);
-    opacity:0;
-    transition:0.5s;
+.teamContainer .card {
+  position: relative;
+  width: 179px;
+  height: 320px;
+  margin: 20px;
+  margin-top: 30px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(225, 225, 225, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(225, 225, 225, 0.5);
+  border-left: 1px solid rgba(225, 225, 225, 0.5);
+  backdrop-filter: blur(5px);
 }
 
-.teamContainer .card .content{
-    transform: translateY(0px);
-    opacity:1;
+.teamContainer .card .content {
+  padding: 10px;
+  text-align: center;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 0.5s;
 }
 
-.teamContainer .card .content h3{
-    font-size: 1.0em;
-    font-weight: 600;
- 
-    color:white;
-    z-index: 1;
-}
-.teamContainer .card .content h4{
-    font-size: 0.8em;
-    color:rgb(255, 0, 106);
-    font-weight: 1000;
-    
-}
-.teamContainer .card .content p{
-    font-size: 1em;
-    color: rgb(253, 5, 150);
-    font-weight: 300;
-
+.teamContainer .card .content {
+  transform: translateY(0px);
+  opacity: 1;
 }
 
-.teamContainer .card .content a{
-    position: relative;
-    display: inline-block;
-    padding: 8px 20px;
-    margin-top: 15px;
-    background: white;
-    color:black;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: 500;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+.teamContainer .card .content h3 {
+  font-size: 1em;
+  font-weight: 600;
+
+  color: white;
+  z-index: 1;
 }
-.coreimage{
-    object-fit: cover;
-    margin-top: 20px;
-    height : 180px;
-    width: 120px;
+.teamContainer .card .content h4 {
+  font-size: 0.8em;
+  color: rgb(255, 0, 106);
+  font-weight: 1000;
+  margin-bottom: 0;
+}
+.teamContainer .card .content p {
+  font-size: 1em;
+  color: rgb(253, 5, 150);
+  font-weight: 300;
 }
 
-.socialHandles{
-    
+.teamContainer .card .content a {
+  position: relative;
+  display: inline-block;
+  color: black;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.coreimage {
+  object-fit: cover;
+  margin-top: 20px;
+  height: 180px;
+  width: 120px;
 }
