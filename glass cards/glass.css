@@ -29,6 +29,7 @@ body {
   /* position: absolute; */
   display: inline;
   text-align: center;
+  z-index: 10;
 }
 
 .teamContainer {
