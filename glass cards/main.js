@@ -33,5 +33,4 @@ thirdBtn.addEventListener('click', (e) => {
     
     // Initiate the wowjs
     new WOW().init();
-    
-});
+})(jQuery);
