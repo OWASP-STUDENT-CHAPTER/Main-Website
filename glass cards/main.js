@@ -26,3 +26,12 @@ thirdBtn.addEventListener('click', (e) => {
     exboDiv.style.display = "none";
     members.style.display="";
 });
+
+
+(function ($) {
+    "use strict";
+    
+    // Initiate the wowjs
+    new WOW().init();
+    
+});
