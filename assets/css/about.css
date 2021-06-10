@@ -12,7 +12,7 @@ html {
 }
 
  .about_owasp {
-  background-image: url("../media/Desktop\ -\ 1.png");
+  /* background-image: url("../media/Desktop\ -\ 1.png"); */
   /*background-color:white;*/
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -180,14 +180,24 @@ card-image {
 
 .aboutus_outer_card {
   background-color: #0D1634;
-  background-image: url("../media/abstract.png");
+  /* background-image: url("../media/abstract.png"); */
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(225, 225, 225, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(225, 225, 225, 0.5);
+  border-left: 1px solid rgba(225, 225, 225, 0.5);
+  backdrop-filter: blur(5px);
 
   width: 80%;
   margin: auto;
   height: 100%;
   border-radius: 30px;
   padding: 5rem 2.5rem;
-  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2); */
 }
 
 @media only screen and (max-width: 1450px) {

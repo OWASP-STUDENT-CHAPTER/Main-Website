@@ -12,29 +12,37 @@ body {
     justify-content:center;
     align-items: center;
     min-height: 100vh; 
+    background-image: url("/assets/media/abstract.png"); 
+    background-size: cover;
+
+background-attachment: fixed;
   /* background-color: cornflowerblue; */
    /* background: url("PYsJ_G.gif");  */
-  /* background-color: rgb(7, 9, 17); */
-  background-image: url("/assets/media/b1.png");
-   /* background-repeat: repeat-y;
-    background-size: auto 130%;
-    background-size: cover;
-  background-position: center center; */
-  /* background-attachment: fixed; */
+  background-color: rgb(7, 9, 17);
+  /* background-image: url("/assets/media/b1.png"); */
+  
+
 }
 
 #team{
   /*bg color, image changes here*/
+ /* background-image: url("/assets/media/abstract.png"); 
+ background-repeat: repeat-y;
+ background-size: auto 130%;
+ background-size: cover;
+background-position: center center;
+background-attachment: fixed;  */
 }
 
 .btn {
+ 
   margin-top: 50px;
   margin-bottom: 50px;
   align-items: center;
-  /* position: absolute; */
+  position:relative;
   display: inline;
   text-align: center;
-  z-index: 10;
+  z-index: 50;
 }
 
 .teamContainer {
