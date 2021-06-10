@@ -44,7 +44,7 @@ card-image {
 .aboutcard-content {
   
   padding: 0.5rem;
- background-color:#0D1634;
+ background-color:rgb(13, 22, 52);
 }
 
 .aboutcard-header {
@@ -60,7 +60,7 @@ card-image {
 .aboutcard-head {
   font-size: 4.5rem;
   font-weight: 500;
-  color: #4CD7D0;
+  color: rgb(76, 215, 208);
   margin-bottom: 3rem;
   margin-top: 2rem;
   font:poppins;

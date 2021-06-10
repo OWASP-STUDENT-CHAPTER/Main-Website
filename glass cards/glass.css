@@ -8,18 +8,19 @@
 }
 
 body {
-  /* display: flex;
+   /* display: flex; */
     justify-content:center;
     align-items: center;
-    min-height: 100vh; */
+    min-height: 100vh; 
   /* background-color: cornflowerblue; */
-  /* background: url("PYsJ_G.gif"); */
-  background-color: rgb(7, 9, 17);
-  /* background-repeat: repeat-y;
+   /* background: url("PYsJ_G.gif");  */
+  /* background-color: rgb(7, 9, 17); */
+  background-image: url("/assets/media/b1.png");
+   /* background-repeat: repeat-y;
     background-size: auto 130%;
     background-size: cover;
-  background-position: center center;
-  background-attachment: fixed; */
+  background-position: center center; */
+  /* background-attachment: fixed; */
 }
 
 .btn {
@@ -76,21 +77,21 @@ body {
 }
 
 .teamContainer .card .content h3 {
-  font-size: 1em;
-  font-weight: 600;
+  font-size: 1.4em;
+  font-weight: 500;
 
   color: white;
   z-index: 1;
 }
 .teamContainer .card .content h4 {
-  font-size: 0.8em;
-  color: rgb(255, 0, 106);
-  font-weight: 1000;
+  font-size: 1.2em;
+  color: #4CD7D0;
+  font-weight: 400;
   margin-bottom: 0;
 }
 .teamContainer .card .content p {
   font-size: 1em;
-  color: rgb(253, 5, 150);
+  color: #4CD7D0;
   font-weight: 300;
 }
 
@@ -106,6 +107,7 @@ body {
 .coreimage {
   object-fit: cover;
   margin-top: 20px;
+  margin-bottom: 20px;
   height: 180px;
   width: 120px;
 }
@@ -114,5 +116,5 @@ i.fab {
   margin: 5px 5px;
 }
 i.fab:hover {
-  color: rgb(212, 26, 119);
+  color:#4CD7D0;
 }
