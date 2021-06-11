@@ -34,15 +34,21 @@ background-position: center center;
 background-attachment: fixed;  */
 }
 
-.btn {
- 
+.aboutbutton {
+  margin-right: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
-  align-items: center;
-  position:relative;
+  position: relative;
+  /* align-items: center;
   display: inline;
-  text-align: center;
+  text-align: center; */
   z-index: 50;
+}
+
+button{
+  text-align: center!important;
+  justify-content: center!important;
+  align-items: center!important; 
 }
 
 .teamContainer {
