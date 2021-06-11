@@ -3,10 +3,10 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background: url("../media/blue_bg.png");
-    
+    /* background: url("../media/Group\ 4.png"); */
+    /* background-color: cornflowerblue; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:100%
   }
   
   .contact-left-image {
@@ -14,7 +14,7 @@
   }
   
   .contact-left {
-    text-align: center;
+    text-align: center; 
     margin: auto;
   }
   
@@ -83,8 +83,9 @@
     letter-spacing: 2px;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
-    background-color: black;
+    background-color: #0D1634;
     color: cyan;
+    
   }
   
   @media only screen and (min-width: 765px) {
