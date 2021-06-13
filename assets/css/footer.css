@@ -34,13 +34,13 @@
   .contact-right-elements .fab,
   .contact-right-elements .fas {
     color: cyan;
-    transition: color 0.5s;
+    transition: color 0.25s;
     font-size: 45px;
   }
   
   .contact-right-elements .fab:hover,
   .contact-right-elements .fas:hover {
-    color: cyan;
+    color: white;
   }
   
   .contact-right-elements p {
