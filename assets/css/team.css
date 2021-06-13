@@ -45,11 +45,37 @@ background-attachment: fixed;  */
   z-index: 50;
 }
 
-button{
-  text-align: center!important;
-  justify-content: center!important;
-  align-items: center!important; 
+.buttonsTeam
+{
+  display: flex;
+  align-items: center !important;
+  padding: 10px;
+  height: auto;
+  justify-content: center;
 }
+
+.teambutton
+{
+  transition: background-color 0.5s;
+  margin: 20px 40px;
+  padding: 10px 50px;
+  border-radius: 30px;
+  text-align: center;
+  border: 2px solid #4CD7D0;
+  background-color: transparent;
+  color:#4CD7D0 !important;
+  
+}
+
+.teambutton:focus{
+  outline: none;
+}
+
+.teambutton:hover{
+  background-color: #4CD7D0;
+  color: white !important;
+}
+
 
 .teamContainer {
   position: relative;
@@ -135,4 +161,21 @@ i.fab {
 }
 i.fab:hover {
   color:#4CD7D0;
+}
+
+@media (max-width:637px)
+{
+  .buttonsTeam
+{
+  flex-direction: column;
+  
+}
+  .teambutton
+  {
+    display: block;
+    width: 40vw;
+    min-width: 80px;
+    max-width: 150px;
+    margin: 20px auto;
+  }
 }
