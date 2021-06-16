@@ -38,6 +38,8 @@ body {
 @media only screen and (max-width: 1000px) {
   .container {
     border-radius: 0;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
@@ -373,4 +375,21 @@ a {
 .aboutbutton:hover{
   background-color: #4CD7D0;
   color: white !important;
+}
+
+.eventsLogo{
+  width: 600px;
+  margin-right: 100px;
+}
+
+@media only screen and (max-width: 650px) {
+  .inner{
+    padding-right: 400px;
+  }
+
+  .eventsLogo {
+    width:400px;
+    /* padding-right: 650px; */
+    
+  }
 }

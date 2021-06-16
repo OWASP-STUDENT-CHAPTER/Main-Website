@@ -12,7 +12,7 @@ body {
     justify-content:center;
     align-items: center;
     min-height: 100vh; 
-    background-image: url("/assets/media/abstract.png"); 
+    background-image: url("../media/abstract.png"); 
     background-size: cover;
 
 background-attachment: fixed;
