@@ -6,78 +6,78 @@
     /* background: url("../media/Group\ 4.png"); */
     background-color: #101e4bde;
     background-repeat: no-repeat;
-    background-size:100%
-  }
-  
-  .contact-left-image {
+    background-size: 100%
+}
+
+.contact-left-image {
     width: 400px;
-  }
-  
-  .contact-left {
-    text-align: center; 
+}
+
+.contact-left {
+    text-align: center;
     margin: auto;
-  }
-  
-  .contact-right {
+}
+
+.contact-right {
     padding: 30px;
-  }
-  
-  .contact-right-elements a {
+}
+
+.contact-right-elements a {
     text-decoration: none;
-  }
-  
-  .contact-right-elements {
+}
+
+.contact-right-elements {
     margin-top: 50px;
     margin-bottom: 50px;
-  }
-  
-  .contact-right-elements .fab,
-  .contact-right-elements .fas {
+}
+
+.contact-right-elements .fab,
+.contact-right-elements .fas {
     color: cyan;
     transition: color 0.25s;
     font-size: 45px;
-  }
-  
-  .contact-right-elements .fab:hover,
-  .contact-right-elements .fas:hover {
+}
+
+.contact-right-elements .fab:hover,
+.contact-right-elements .fas:hover {
     color: white;
-  }
-  
-  .contact-right-elements p {
+}
+
+.contact-right-elements p {
     color: white;
     font-family: "Poppins", sans-serif;
     letter-spacing: 2px;
     margin-left: 20px;
-  }
-  
-  .p_1 {
+}
+
+.p_1 {
     position: relative;
     top: 10px;
     font-size: 15px;
-  }
-  
-  .p_2 {
+}
+
+.p_2 {
     position: relative;
     top: 10px;
     font-size: 15px;
-  }
-  
-  .socialmedia {
+}
+
+.socialmedia {
     display: flex;
-  }
-  
-  .socialmedia div {
+}
+
+.socialmedia div {
     margin: 0 20px;
-  }
-  
-  .contact-main-heading {
+}
+
+.contact-main-heading {
     color: cyan;
     font-size: 30px;
     font-family: "Poppins", sans-serif;
     letter-spacing: 2px;
-  }
-  
-  .footer {
+}
+
+.footer {
     text-align: center;
     padding: 20px;
     letter-spacing: 2px;
@@ -85,59 +85,60 @@
     font-weight: bold;
     background-color: #0D1634;
     color: cyan;
-    
-  }
-  
-  @media only screen and (min-width: 765px) {
+}
+
+.location {
+    border-radius: 25px;
+}
+
+@media only screen and (min-width: 765px) {
     .socialmedia div:first-child {
-      margin-left: 0px;
+        margin-left: 0px;
     }
-  }
-  
-  @media only screen and (max-width: 1201px) {
+}
+
+@media only screen and (max-width: 1201px) {
     .contact-right {
-      padding-top: 0px;
-    }
-  
-    .contact-right-elements p {
-      margin-left: 20px;
-    }
-  }
-  
-  @media only screen and (max-width: 993px) {
-    .contact-right-elements p {
-      position: relative;
-      top: 20px;
+        padding-top: 0px;
     }
     .contact-right-elements p {
-      margin-left: 0px;
+        margin-left: 20px;
     }
-  }
-  
-  @media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 993px) {
+    .contact-right-elements p {
+        position: relative;
+        top: 20px;
+    }
+    .contact-right-elements p {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
     .contact-right-elements:first-child {
-      margin-top: 0px;
+        margin-top: 0px;
     }
     .contact-right {
-      text-align: center;
+        text-align: center;
     }
     .contact-left-image {
-      margin: 50px 0px;
+        margin: 50px 0px;
     }
     .socialmedia {
-      justify-content: center;
+        justify-content: center;
     }
-  }
-  
-  @media only screen and (max-width: 500px) {
+}
+
+@media only screen and (max-width: 500px) {
     .contact-left-image {
-      width: 300px;
+        width: 300px;
     }
-  }
-  
-  @media only screen and (max-width: 321px) {
+}
+
+@media only screen and (max-width: 321px) {
     .contact-right-elements .fab {
-      font-size: 35px;
+        font-size: 35px;
     }
-  }
-  
+}
