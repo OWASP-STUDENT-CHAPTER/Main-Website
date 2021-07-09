@@ -14,13 +14,15 @@ html body {
   height: auto;
   width: 100%;
   position: fixed;
-  background-color: #0d1634;
+  /* background-color: #0d1634; */
+  background-color: transparent;
   z-index: 999;
   transition: 0.5s all;
   transition-delay: 0.2s;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
   display: flex;
   top: -5px;
+
 }
 
 .nav > .nav-header > .nav-title {
