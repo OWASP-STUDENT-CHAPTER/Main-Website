@@ -378,3 +378,14 @@ Animation keyframes
         width: 25px;
     }
 }
+
+@media (max-width:900px)
+{
+    .home{
+        background: url('../media/owaspPortrait.gif'), rgba(0, 0, 0, 1);
+        background-size: cover;
+        background-position: top;
+        filter: hue-rotate(-2deg) saturate(1.5);
+       
+    }
+}
