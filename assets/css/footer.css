@@ -4,9 +4,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     /* background: url("../media/Group\ 4.png"); */
-    background-color: #101e4bde;
     background-repeat: no-repeat;
-    background-size: 100%
+    background-color: rgb(13,13,19);
+    background-size: 100%;
 }
 
 .contact-left-image {
@@ -82,9 +82,9 @@
     padding: 20px;
     letter-spacing: 2px;
     font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    background-color: #0D1634;
-    color: cyan;
+    background-color: rgb(1, 196, 196);
+    color: white;
+    opacity: 1;
 }
 
 .location {
@@ -114,15 +114,20 @@
     .contact-right-elements p {
         margin-left: 0px;
     }
+    .location {
+        width: 270px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
     .contact-right-elements:first-child {
         margin-top: 0px;
     }
-    .contact-right {
-        text-align: center;
+
+    .contact-right{
+        text-align: center  ;
     }
+
     .contact-left-image {
         margin: 50px 0px;
     }
@@ -131,6 +136,7 @@
     }
     .location {
         width: 300px;
+        margin: 50px 30px;
     }
 }
 

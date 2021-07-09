@@ -182,7 +182,7 @@ body {
 }
 
 .sliderEvents .box2 {
-    background-color: #1c92e071;
+    background-color: #1f7faf46;
 }
 
 .sliderEvents .box1 button {
@@ -190,7 +190,7 @@ body {
 }
 
 .sliderEvents .box1 {
-    background-color: #0000501f;
+    background-color: #1c92e071;
 }
 
 .sliderEvents .box2 button {
@@ -198,7 +198,8 @@ body {
 }
 
 .sliderEvents .box3 {
-    background-color: #0f75bc;
+    
+    background-color: #1c92e071;
 }
 
 .sliderEvents .box3 button {
@@ -395,6 +396,7 @@ a {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    letter-spacing: 2px;
 }
 
 .aboutbutton {
