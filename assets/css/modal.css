@@ -21,3 +21,8 @@
     font-family: "poppins";
     letter-spacing: 1px;
 }
+.swal-icon img {
+    z-index: 2;
+    padding: 30px;
+    padding-bottom: 0px!important ;
+}
