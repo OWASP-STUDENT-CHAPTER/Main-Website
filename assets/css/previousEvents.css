@@ -53,8 +53,21 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
+  #events{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .box h5{
+    
+  }
+  
   .sliderEvents {
     height: 100vh;
+    
+  }
+  .sliderEvents .box{
+    
   }
 }
 
