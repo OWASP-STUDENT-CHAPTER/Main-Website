@@ -450,8 +450,10 @@ a {
     top: -200px;
   }
   .container {
-    margin-left: 20px;
+    width: 700px;
+    margin-left: 34px;
     margin-right: 0;
+    padding: 0;
   }
   .box p {
     font-size: 2rem !important;
@@ -468,6 +470,8 @@ a {
     width: 400px;
     padding-left: 0px;
     padding-right: 0px;
+    position: relative;
+    left: -20px;
   }
   .box1 h5 {
     padding-top: 50px;
@@ -476,27 +480,58 @@ a {
     width: 400px;
     padding-left: 50px;
     padding-right: 50px;
+    position: relative;
+    left: -20px;
   }
   .box4 .eventsLogo {
     width: 400px;
     padding-top: 70px;
     padding-left: 30px;
     padding-right: 30px;
+    position: relative;
+    left: -20px;
   }
   .box5 .eventsLogo {
     width: 400px;
     padding-top: 70px;
     padding-left: 30px;
     padding-right: 30px;
+    position: relative;
+    left: -20px;
   }
   .box3 .eventsLogo {
     position: relative;
     top: -100px;
   }
+  .box h5 {
+    font-size: 4rem !important;
+    padding-right: 50px;
+  }
+  .box1 h5,
+  .box3 h5 {
+    position: relative;
+    top: 10px;
+  }
+  .box1 p,
+  .box3 p {
+    position: relative;
+    top: 20px;
+  }
+  .box p {
+    padding-right: 50px;
+  }
+  .container {
+    width: 350px;
+    padding-left: 0;
+    padding-right: 0;
+    left: -20px;
+  }
 }
 @media only screen and (max-width: 400px) {
   .box1 .eventsLogo,
   .box3 .eventsLogo {
+    position: relative;
+    left: -20px;
     padding-left: 10px;
     padding-right: 40px;
     width: 400px;
@@ -506,20 +541,41 @@ a {
   }
   .box2 .eventsLogo {
     width: 350px;
+    position: relative;
+    left: -10px;
   }
   .box4 .eventsLogo {
     width: 350px;
     padding-right: 10px;
+    position: relative;
+    left: -20px;
   }
   .box5 .eventsLogo {
     width: 350px;
     padding-right: 0px;
+    position: relative;
+    left: -18px;
   }
   .box h5 {
-    font-size: 1.5rem;
-    padding-right: 40px;
+    font-size: 1.2rem;
+    padding-right: 80px;
+  }
+  .box1 h5,
+  .box3 h5 {
+    position: relative;
+    font-size: 4.2rem !important;
+    top: 15px;
+  }
+  .box1 p,
+  .box3 p {
+    position: relative;
+    top: 15px;
   }
   .box p {
-    padding-right: 50px;
+    padding-right: 80px;
+  }
+  .container {
+    width: 325px;
+    left: -15px;
   }
 }
