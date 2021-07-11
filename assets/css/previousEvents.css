@@ -55,10 +55,6 @@ body {
 @media only screen and (max-width: 1000px) {
   .sliderEvents {
     height: 100vh;
-    
-  }
-  .sliderEvents .box{
-    
   }
 }
 
