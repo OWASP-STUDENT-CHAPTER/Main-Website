@@ -1,0 +1,28 @@
+.swal-overlay {
+    background-color: #8c9dff72;
+    z-index: 10000;
+}
+
+.swal-button {
+    background-color: #041364ce;
+    margin-bottom: 5vh;
+    font-family: "poppins-med";
+    letter-spacing: 1px;
+}
+
+.swal-modal {
+    background-color: #292828;
+    color: #fff !important;
+    box-shadow: 0px 0px 20px #fff;
+}
+
+.swal-text {
+    color: #fff !important;
+    font-family: "poppins";
+    letter-spacing: 1px;
+}
+.swal-icon img {
+    z-index: 2;
+    padding: 30px;
+    padding-bottom: 0px!important ;
+}
