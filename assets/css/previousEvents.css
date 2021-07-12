@@ -55,10 +55,6 @@ body {
 @media only screen and (max-width: 1000px) {
   .sliderEvents {
     height: 100vh;
-    
-  }
-  .sliderEvents .box{
-    
   }
 }
 
@@ -71,6 +67,12 @@ body {
   overflow: hidden;
   position: relative;
 }
+@media only screen and (min-width: 1100px) {
+  .box3 .eventsLogo {
+    position: relative;
+    top: -50px;
+  }
+}
 
 @media only screen and (max-width: 770px) {
   .sliderEvents .box {
@@ -81,7 +83,7 @@ body {
 
 .sliderEvents .box .bg {
   padding: 2rem;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.35);
   width: 55%;
   transform: skewX(7deg);
   position: absolute;
