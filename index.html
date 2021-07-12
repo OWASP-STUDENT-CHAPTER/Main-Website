@@ -444,10 +444,10 @@
 
     <script>
         let height = window.screen.availHeight;
-        console.log(height);
-        height = height + 10;
+        console.log(`height is ${height}`);
+        height = height - 150;
         document.addEventListener('scroll', () => {
-            console.log(window.pageYOffset)
+            console.log(`offset is ${window.pageYOffset}`)
             if (window.pageYOffset > height) {
                 document.querySelector(".nav").style.backgroundColor = "rgb(13,13,19)";
             } else {
