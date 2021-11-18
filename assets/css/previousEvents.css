@@ -449,7 +449,6 @@ a {
         padding-right: 200px;
     }
 }
-
 @media (min-width: 700px) and (max-width: 770px) {
     .box .eventsLogo {
         width: 600px;
