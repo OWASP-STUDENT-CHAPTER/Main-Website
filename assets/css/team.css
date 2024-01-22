@@ -63,6 +63,11 @@ background-attachment: fixed;  */
     color: #4CD7D0 !important;
 }
 
+#exboBtn{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
 .teambutton:focus {
     outline: none;
 }
