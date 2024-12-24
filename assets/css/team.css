@@ -159,6 +159,8 @@ background-attachment: fixed;  */
     margin-bottom: 20px;
     height: 180px;
     width: 120px;
+    pointer-events: none;
+    user-select: none;
 }
 
 i.fab {
